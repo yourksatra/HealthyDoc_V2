@@ -3,8 +3,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class TwoStep extends CI_Controller
 {
-	const pass_app = "aiov mhqh msgg nbsn";
-	const token_app = "4NJbwfQh72xbafoakJAI";
+	const pass_app = "YOUR_TOKEN";
+	const token_app = "YOUR_TOKEN";
 
 	public function __construct()
 	{
@@ -35,9 +35,9 @@ class TwoStep extends CI_Controller
 	{
 		$config = [
 			'protocol' => 'smtp',
-			'smtp_host' => 'ssl://smtp.googlemail.com',
-			'smtp_user' => 'MedTech.corp2@gmail.com',
-			'smtp_pass' => "aiov mhqh msgg nbsn",
+			'smtp_host' => 'YOUR_HOST',
+			'smtp_user' => 'YOUR_MAIL',
+			'smtp_pass' => "YOUR_TOKEN",
 			'smtp_port' => 465,
 			'mailtype' => 'html',
 			'newline' => "\r\n"
