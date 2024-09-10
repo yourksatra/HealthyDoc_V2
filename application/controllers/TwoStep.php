@@ -120,7 +120,7 @@ class TwoStep extends CI_Controller
 				'countryCode' => '62',
 			),
 			CURLOPT_HTTPHEADER => array(
-				'Authorization: VT5JC5twg22V7-bNcKzV'
+				'Authorization: YOUR_TOKEN'
 			),
 		));
 		
